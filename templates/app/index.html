@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block page_title %}いつでもエア実況{% endblock %}
+
+{% block content %}
+<h1>いつでもエア実況</h1>
+<p>諸事情によりリアタイ実況できない人が後からみんなで実況しよう！ってサービスです。<br>使い方など、詳しくはこちら。↓</p>
+<button type="button" class="btn btn-primary" onclick="location.href='{% url "app:about" %}'" >いつでもエア実況とは？</button>
+<h3>今日の実況</h3>
+{% for post in today_posts %}
+    <p><a href="{% url 'app:detail' post.id %}">{{ post.title }}　{{ post.episode }}話　{{ post.start_time }}から</a></p>
+    <p>{{ post.comment | truncatechars:50 }}</p>
+{% endfor %}
+<h3>明日の実況</h3>
+{% for post in tommorow_posts %}
+    <p><a href="{% url 'app:detail' post.id %}">{{ post.title }}　{{ post.episode }}話　{{ post.start_time }}から</a></p>
+    <p>{{ post.comment | truncatechars:50 }}</p>
+{% endfor %}
+<h3>明後日の実況</h3>
+{% for post in day_after_tommorow_posts %}
+    <p><a href="{% url 'app:detail' post.id %}">{{ post.title }}　{{ post.episode }}話　{{ post.start_time }}から</a></p>
+    <p>{{ post.comment | truncatechars:50 }}</p>
+{% endfor %}
+{% endblock %}

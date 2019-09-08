@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block page_title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <h2>{{ post.title }}</h2>
+    <p>{{ post.start_time }}から</p>
+    <p>{{ post.episode }}話</p>
+    <p>{{ post.comment }}</p>
+    <button type="button" class="btn btn-primary" onclick="window.open('http://twitter.com/intent/tweet?text={{ post.comment }} このハッシュタグで一緒に実況しませんか？&hashtags={{ post.title }}_{{ post.episode }}話_{{ post.start_time|date:"Y年m月j日H時i分" }}から, いつでもエア実況', '_blank')">ツイートする</button>
+{% endblock %}
