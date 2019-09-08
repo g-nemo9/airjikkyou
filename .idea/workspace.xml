@@ -519,7 +519,6 @@
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_tutorial/.idea/flask_tutorial.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_tutorial/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_tutorial/.idea/modules.xml" beforeDir="false" />
@@ -5259,19 +5258,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/app/detail.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -5316,7 +5302,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/airjikkyou/settings.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="490">
@@ -5337,7 +5323,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Procfile">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -5494,24 +5480,25 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1567839500495</updated>
-      <workItem from="1567839503102" duration="33837000" />
+      <workItem from="1567839503102" duration="34059000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33837000" />
+    <option name="totallyTimeSpent" value="34059000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12446352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12446352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
-      <window_info active="true" anchor="bottom" id="Terminal" sideWeight="0.4985694" visible="true" weight="0.26626506" />
+      <window_info anchor="bottom" id="Terminal" sideWeight="0.4985694" visible="true" weight="0.26626506" />
       <window_info anchor="bottom" id="Event Log" sideWeight="0.50143063" side_tool="true" weight="0.26626506" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32891566" />
@@ -5560,9 +5547,6 @@
           <caret line="6" column="33" lean-forward="true" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/app/admin.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -5690,13 +5674,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/runtime.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -5711,6 +5688,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/airjikkyou/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="490">
@@ -5718,6 +5698,13 @@
           <folding>
             <element signature="e#311#320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
