@@ -12,12 +12,12 @@
     <p>{{ post.comment | truncatechars:50 }}</p>
 {% endfor %}
 <h3>明日の実況</h3>
-{% for post in tommorow_posts %}
+{% for post in tomorrow_posts %}
     <p><a href="{% url 'app:detail' post.id %}">{{ post.title }}　{{ post.episode }}話　{{ post.start_time }}から</a></p>
     <p>{{ post.comment | truncatechars:50 }}</p>
 {% endfor %}
-<h3>明後日の実況</h3>
-{% for post in day_after_tommorow_posts %}
+<h3>実況一覧（明日以降）</h3>
+{% for post in day_after_tomorrow_posts %}
     <p><a href="{% url 'app:detail' post.id %}">{{ post.title }}　{{ post.episode }}話　{{ post.start_time }}から</a></p>
     <p>{{ post.comment | truncatechars:50 }}</p>
 {% endfor %}

@@ -19,7 +19,7 @@ class CreateForm(forms.Form):
     title = forms.CharField(
         label='タイトル',
         max_length=140,
-        help_text='Twitterハッシュタグの使用上、？や！などの記号は使えません。Vtuberなどのアーカイブの場合、「配信タイトル_名前」を推奨します。'
+        help_text='Twitterハッシュタグの仕様上、？や！などの記号は使えません。Vtuberなどのアーカイブの場合、「配信タイトル_名前」を推奨します。'
     )
     start_time = forms.DateTimeField(
         label='開始時刻',

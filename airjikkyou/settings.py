@@ -12,6 +12,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 
 import os
 import django_heroku
+from django.contrib.messages import constants as messages
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -131,3 +132,9 @@ if not DEBUG:
     SECRET_KEY = os.environ['SECRET_KEY']
     import django_heroku
     django_heroku.settings(locals())
+
+MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
+
+MESSAGE_TAGS = {
+    messages.SUCCESS: 'alert alert-success',
+}
