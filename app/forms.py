@@ -1,5 +1,6 @@
 from django import forms
 from .models import Post
+import datetime
 
 
 # class CreateForm(forms.ModelForm):
@@ -23,7 +24,7 @@ class CreateForm(forms.Form):
     )
     start_time = forms.DateTimeField(
         label='開始時刻',
-        widget=forms.DateTimeInput(attrs={"type": "datetime-local"}),
+        widget=forms.DateTimeInput(attrs={"type": "datetime-local", "value": datetime.date.today()}),
         input_formats=['%Y-%m-%dT%H:%M']
     )
     episode = forms.IntegerField(
