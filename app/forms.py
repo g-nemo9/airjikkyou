@@ -24,8 +24,7 @@ class CreateForm(forms.Form):
     )
     start_time = forms.DateTimeField(
         label='開始時刻',
-        widget=forms.DateTimeInput(attrs={"type": "datetime-local", "value": timezone.datetime.now()}),
-        input_formats=['%Y-%m-%dT%H:%M']
+        widget=forms.DateTimeInput(attrs={"type": "datetime-local"})
     )
     episode = forms.IntegerField(
         label='話数',
@@ -48,3 +47,6 @@ class CreateForm(forms.Form):
     #             '記号は含めないでください'
     #         )
     #     return title
+
+
+FORMAT_MODULE_PATH = 'airjikkyou.formats'
