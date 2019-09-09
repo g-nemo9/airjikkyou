@@ -138,3 +138,5 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 MESSAGE_TAGS = {
     messages.SUCCESS: 'alert alert-success',
 }
+
+FORMAT_MODULE_PATH = 'airjikkyou.formats'

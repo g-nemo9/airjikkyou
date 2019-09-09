@@ -48,5 +48,3 @@ class CreateForm(forms.Form):
     #         )
     #     return title
 
-
-FORMAT_MODULE_PATH = 'airjikkyou.formats'
