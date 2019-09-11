@@ -24,7 +24,7 @@ class CreateForm(forms.Form):
     )
     start_time = forms.DateTimeField(
         label='開始時刻',
-        widget=forms.DateTimeInput(attrs={"type": "datetime-local"}),
+        widget=forms.DateTimeInput(attrs={"type": "datetime-local", "value": timezone.datetime.now().strftime('%Y-%m-%dT%H:%M')}),
         input_formats=['%Y-%m-%dT%H:%M']
     )
     episode = forms.IntegerField(
