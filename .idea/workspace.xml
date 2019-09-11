@@ -519,13 +519,6 @@
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airjikkyou/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/airjikkyou/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/airjikkyou/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/airjikkyou/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/app/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_tutorial/.idea/flask_tutorial.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_tutorial/.idea/misc.xml" beforeDir="false" />
@@ -5319,11 +5312,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+            <state relative-caret-position="210">
+              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -5331,7 +5324,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -5404,8 +5397,8 @@
         <option value="$PROJECT_DIR$/app/urls.py" />
         <option value="$PROJECT_DIR$/airjikkyou/settings.py" />
         <option value="$PROJECT_DIR$/airjikkyou/urls.py" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -5440,6 +5433,12 @@
               <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
+              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
+              <item name="media" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
@@ -5535,12 +5534,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567839500495</updated>
       <workItem from="1567839503102" duration="48427000" />
-      <workItem from="1568169383378" duration="6833000" />
+      <workItem from="1568169383378" duration="7237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55260000" />
+    <option name="totallyTimeSpent" value="55664000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
@@ -5761,20 +5760,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
