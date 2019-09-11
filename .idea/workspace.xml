@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ec212ea-c2b2-4e26-969f-0ea7efef17cd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/media/app/calling-girl.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask/.idea/Flask.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask/.idea/modules.xml" beforeDir="false" />
@@ -519,6 +520,7 @@
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Flask_test/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_tutorial/.idea/flask_tutorial.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../flask_tutorial/.idea/misc.xml" beforeDir="false" />
@@ -5316,7 +5318,7 @@
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+              <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
               <folding>
                 <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -5422,44 +5424,12 @@
             <path>
               <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
-              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
               <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
               <item name="media" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="airjikkyou" type="b2602c69:ProjectViewProjectNode" />
-              <item name="airjikkyou" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -5534,18 +5504,18 @@
       <option name="presentableId" value="Default" />
       <updated>1567839500495</updated>
       <workItem from="1567839503102" duration="48427000" />
-      <workItem from="1568169383378" duration="7237000" />
+      <workItem from="1568169383378" duration="7844000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55664000" />
+    <option name="totallyTimeSpent" value="56271000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="797" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.12589413" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12589413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -5559,7 +5529,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32891566" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.26626506" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.23120567" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.23120567" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32891566" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -5770,7 +5740,7 @@
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="65" selection-start-line="14" selection-start-column="65" selection-end-line="14" selection-end-column="65" />
+          <caret line="14" column="66" selection-start-line="14" selection-start-column="66" selection-end-line="14" selection-end-column="66" />
           <folding>
             <element signature="n#style#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
