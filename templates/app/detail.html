@@ -6,6 +6,9 @@
     <h2>{{ post.title }}</h2>
     <p>{{ post.start_time }}から</p>
     <p>{{ post.episode }}話</p>
-    <p>{{ post.comment }}</p>
-    <button type="button" class="btn btn-primary" onclick="window.open('http://twitter.com/intent/tweet?text={{ post.comment }} このハッシュタグで一緒に実況しませんか？&hashtags={{ post.title }}_{{ post.episode }}話_{{ post.start_time|date:"Y年m月j日H時i分" }}から, いつでもエア実況', '_blank')">ツイートする</button>
+    <p>{{ post.comment|linebreaksbr }}</p>
+{#    <button type="button" class="btn btn-primary" onclick="window.open('http://twitter.com/intent/tweet?text={{ post.comment }}&url={{ request.schema }}://{{ request.get_host }}{% url 'app:detail' post.pk %}&hashtags=いつでもエア実況_{{ post.title }}_{{ post.episode }}話_{{ post.start_time|date:"Y年m月j日H時i分" }}から, \'_blank\'')">ツイートする</button>#}
+    <a class="btn btn-primary" href="https://twitter.com/intent/tweet?url={{ request.scheme }}://{{ request.get_host }}{% url 'app:detail' post.pk %}&text={{ post.comment }}&hashtags=いつでもエア実況_{{ post.title }}_{{ post.episode }}話_{{ post.start_time|date:"Y年m月j日H時i分" }}から" target="_blank">
+        ハッシュタグ付きでツイートする
+    </a>
 {% endblock %}
