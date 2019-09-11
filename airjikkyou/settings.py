@@ -140,3 +140,6 @@ MESSAGE_TAGS = {
 }
 
 FORMAT_MODULE_PATH = 'airjikkyou.formats'
+
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+MEDIA_URL = '/media/'
